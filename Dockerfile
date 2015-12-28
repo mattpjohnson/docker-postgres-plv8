@@ -1,7 +1,7 @@
 #
 # Postgres + Plv8 Dockerfile
 #
-# https://github.com/mattpjohnson/postgres-plv8
+# https://github.com/mattpjohnson/docker-postgres-plv8
 #
 
 # Pull base image.
