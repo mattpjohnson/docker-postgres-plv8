@@ -7,6 +7,8 @@
 # Pull base image.
 FROM mattpjohnson/postgres:9.5rc1
 
+MAINTAINER Matt Johnson <hello@mattpjohnson.com>
+
 RUN echo 'deb http://apt.postgresql.org/pub/repos/apt/ jessie-pgdg main' 9.5 > /etc/apt/sources.list.d/pgdg.list
 
 RUN echo 'deb http://ftp.debian.org/debian testing main' > /etc/apt/sources.list
